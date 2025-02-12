@@ -16,7 +16,7 @@ const BlogList = ({ limit }) => {
       content: "A simple Website for task management using React and Express JS.",
     },
     {
-      href: "https://github.com/arifnrhdi/sakana-todo-list",
+      href: "https://github.com/arifnrhdi/adoptpets",
       image: adoptpets,
       target: "_blank",
       alt: "Adopt Pets",
