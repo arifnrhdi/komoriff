@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/img/logo-lepkom.png";
-import iubru from "../assets/img/iubru.jpeg";
 import gwejh from "../assets/img/tes.jpg";
 
 const AboutMe = () => {
@@ -32,7 +31,7 @@ const AboutMe = () => {
         <div className="text-3xl font-bold mb-4">Experience</div>
         <div className="py-4 flex flex-col gap-20">
           <div className="flex gap-8 lg:items-start items-center">
-            <img src={logo} className="rounded-3xl h-fit w-[8rem] dark:bg-gray-200 transition-colors" />
+            <img src={logo} className="rounded-3xl h-fit w-[8rem] bg-gray-100 shadow-sm transition-colors" />
             <div className="flex flex-col gap-2 w-2/3">
               <table className="lg:table hidden w-full text-left text-xl">
                 <thead className="border-b-1">

@@ -1,6 +1,5 @@
 import React from "react";
 import adoptpets from "../../assets/img/adoptpets.jpg";
-import iubru from "../../assets/img/iubru.jpeg";
 import sakana from "../../assets/img/sakana.jpg";
 import gundar from "../../assets/img/gunadarma.jpeg";
 import Cards from "./Cards";

@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBlog, faCircleInfo, faHouse, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { faBlog, faCircleInfo, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-const NavbarMobile = ({ darkMode, toggleDarkMode }) => {
+const NavbarMobile = () => {
   return (
     <div className="md:hidden flex justify-center gap-2 items-center sticky bottom-2 mx-10 z-50">
       <div className="px-4 py-3 rounded-xl bg-slate-300/70 backdrop-blur-2xl dark:bg-zinc-800/70 dark:text-gray-300 text-zinc-900 transition-colors duration-200">
