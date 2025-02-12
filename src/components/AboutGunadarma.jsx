@@ -9,7 +9,7 @@ const AboutGunadarma = () => {
         <div className="mb-2 text-[26px] font-bold opacity-90 md:text-3xl">
           Sejarah
         </div>
-        <div className="mb-8 font-normal">
+        <div className="mb-8 text-lg font-normal md:text-xl">
           Universitas Gunadarma, yang lebih dikenal dengan sebutan Gunadarma,
           adalah salah satu perguruan tinggi swasta ternama di Indonesia.
           Didirikan pada tahun 1981 dengan nama awal Program Pendidikan Ilmu
@@ -19,7 +19,7 @@ const AboutGunadarma = () => {
         <div className="my-2 text-[26px] font-bold opacity-90 md:text-3xl">
           Lokasi dan Fasilitas
         </div>
-        <div className="mb-8 font-normal">
+        <div className="mb-8 text-lg font-normal md:text-xl">
           Gunadarma memiliki beberapa kampus yang tersebar di berbagai lokasi di
           Jabodetabek, termasuk Depok, Jakarta, Bekasi, dan Tangerang. Kampus
           ini dilengkapi dengan berbagai fasilitas modern seperti laboratorium
@@ -35,7 +35,7 @@ const AboutGunadarma = () => {
               <span className="font-semibold">
                 Fokus pada Teknologi dan Inovasi
               </span>
-              <p>
+              <p className="text-lg md:text-xl">
                 Universitas ini dikenal sebagai salah satu kampus yang unggul
                 dalam bidang teknologi dan bisnis. Dengan kurikulum yang
                 berbasis teknologi, lulusan Gunadarma memiliki daya saing tinggi
@@ -44,7 +44,7 @@ const AboutGunadarma = () => {
             </li>
             <li>
               <span className="font-semibold">Akreditasi dan Prestasi</span>
-              <p>
+              <p className="text-lg md:text-xl">
                 Universitas Gunadarma telah mendapatkan akreditasi{" "}
                 <span className="font-bold">A</span> dari BAN-PT serta meraih
                 berbagai penghargaan nasional dan internasional dalam bidang
@@ -53,7 +53,7 @@ const AboutGunadarma = () => {
             </li>
             <li>
               <span className="font-semibold">Kerja Sama dengan Industri</span>
-              <p>
+              <p className="text-lg md:text-xl">
                 Gunadarma menjalin kerja sama dengan berbagai perusahaan besar,
                 baik dalam maupun luar negeri, untuk memberikan kesempatan
                 magang dan kerja bagi mahasiswanya.
@@ -65,10 +65,10 @@ const AboutGunadarma = () => {
           Informasi Lebih Lanjut
         </div>
         <div className="font-normal">
-          <div className="mb-1">
+          <div className="mb-1 text-lg md:text-xl">
             Informasi lebih lanjut mengenai Universitas Gunadarma:
           </div>
-          <ol className="grid list-inside list-disc gap-1">
+          <ol className="grid list-inside list-disc gap-1 text-lg md:text-xl">
             <li>
               <Link
                 className="underline"
