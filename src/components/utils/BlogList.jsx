@@ -12,7 +12,8 @@ const BlogList = ({ limit }) => {
       image: sakana,
       alt: "Surgeon Fish",
       judul: "Sakana To Do List",
-      content: "A simple Website for task management using React and Express JS.",
+      content:
+        "A simple Website for task management using React and Express JS.",
     },
     {
       href: "https://github.com/arifnrhdi/adoptpets",
@@ -20,7 +21,8 @@ const BlogList = ({ limit }) => {
       target: "_blank",
       alt: "Adopt Pets",
       judul: "AdoptPets",
-      content: "A dynamic CRUD based animal adoption website using Express JS and React Vite",
+      content:
+        "A dynamic CRUD based animal adoption website using Express JS and React Vite",
     },
     {
       href: "/about-gunadarma",
@@ -28,16 +30,24 @@ const BlogList = ({ limit }) => {
       image: gundar,
       alt: "Arif",
       judul: "About Universitas Gunadarma",
-      content: "This article explains information about Gunadarma University, history, and several of the campus's advantages.",
+      content:
+        "This article explains information about Gunadarma University, history, and several of the campus's advantages.",
     },
   ];
 
   const limitedCards = limit ? cardsData.slice(0, limit) : cardsData;
 
   return (
-    <div className="grid xl:grid-cols-3 gap-4 md:grid-cols-2 grid-cols-1">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
       {limitedCards.map((card, index) => (
-        <Cards key={index} href={card.href} target={card.target} image={card.image} alt={card.alt} judul={card.judul}>
+        <Cards
+          key={index}
+          href={card.href}
+          target={card.target}
+          image={card.image}
+          alt={card.alt}
+          judul={card.judul}
+        >
           {card.content}
         </Cards>
       ))}

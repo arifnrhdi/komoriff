@@ -4,19 +4,27 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Cards = (props) => {
   return (
-    <a href={props.href} target={props.target} className="relative overflow-hidden border border-zinc-900/10 dark:border-zinc-800 shadow-lg rounded-2xl hover:scale-[1.03] transition-transform group cursor-pointer">
+    <a
+      href={props.href}
+      target={props.target}
+      className="group relative cursor-pointer overflow-hidden rounded-2xl border border-zinc-900/10 shadow-lg transition-transform hover:scale-[1.03] dark:border-zinc-800"
+    >
       <div>
-        <div className="flex absolute w-full h-[25rem] justify-center items-center bg-black/40 text-gray-100 font-semibold opacity-0 group-hover:opacity-100 duration-200 transition-all text-2xl rounded-xl">
+        <div className="absolute flex h-[25rem] w-full items-center justify-center rounded-xl bg-black/40 text-2xl font-semibold text-gray-100 opacity-0 transition-all duration-200 group-hover:opacity-100">
           <div className="flex items-center">
             <span>View blog</span>
-            <FontAwesomeIcon icon={faArrowRight} className="text-lg ms-2" />
+            <FontAwesomeIcon icon={faArrowRight} className="ms-2 text-lg" />
           </div>
         </div>
-        <img src={props.image} alt={props.alt} className="rounded-xl h-[25rem] w-full object-cover" />
+        <img
+          src={props.image}
+          alt={props.alt}
+          className="h-[25rem] w-full rounded-xl object-cover"
+        />
       </div>
       <div className="p-4">
         <div className="text-2xl font-semibold">{props.judul}</div>
-        <div className="text-xl mt-3 opacity-80">{props.children}</div>
+        <div className="mt-3 text-xl opacity-80">{props.children}</div>
       </div>
     </a>
   );

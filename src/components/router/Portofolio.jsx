@@ -5,14 +5,13 @@ import Blog from "../pages/Blog";
 import About from "../pages/About";
 import Gunadarma from "../pages/Gunadarma";
 
-
 export const router = createBrowserRouter([
   {
     path: "/",
     children: [
       {
         path: "/",
-        
+
         element: <Home />,
       },
       {

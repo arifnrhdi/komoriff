@@ -22,19 +22,30 @@ const Home = () => {
   };
 
   return (
-    <div className={`${darkMode && "dark"} dark:bg-zinc-900 bg-slate-200 dark:text-gray-300 text-zinc-900 transition-colors duration-200`}>
-      <nav className="sticky top-0 px-10 py-3 lg:px-auto z-50 bg-slate-200/70 backdrop-blur-xl dark:bg-zinc-900/70 dark:text-gray-300 text-zinc-900 transition-colors duration-200">
+    <div
+      className={`${darkMode && "dark"} bg-slate-200 text-zinc-900 transition-colors duration-200 dark:bg-zinc-900 dark:text-gray-300`}
+    >
+      <nav className="lg:px-auto sticky top-0 z-50 bg-slate-200/70 px-10 py-3 text-zinc-900 backdrop-blur-xl transition-colors duration-200 dark:bg-zinc-900/70 dark:text-gray-300">
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       </nav>
-      <div className="container mx-auto px-5 lg:px-auto pt-24">
+      <div className="lg:px-auto container mx-auto px-5 pt-24">
         <Jumbotrons />
-        <div className="xl:mx-12 mx-2 mt-26">
-          <div className="flex justify-between items-center">
+        <div className="mx-2 mt-26 xl:mx-12">
+          <div className="flex items-center justify-between">
             <p className="text-4xl font-bold">Blog</p>
             <div>
-              <a className="flex items-center text-xl" href="/blog" target="_top">
-                <span className="hover:underline hover:underline-offset-2">View all</span>
-                <FontAwesomeIcon className="text-[18px] ms-2" icon={faArrowRight} />
+              <a
+                className="flex items-center text-xl"
+                href="/blog"
+                target="_top"
+              >
+                <span className="hover:underline hover:underline-offset-2">
+                  View all
+                </span>
+                <FontAwesomeIcon
+                  className="ms-2 text-[18px]"
+                  icon={faArrowRight}
+                />
               </a>
             </div>
           </div>
@@ -42,7 +53,7 @@ const Home = () => {
           <BlogList limit={3} />
         </div>
       </div>
-      <footer className="container mx-auto px-5 lg:px-auto pt-24">
+      <footer className="lg:px-auto container mx-auto px-5 pt-24">
         <Footer />
       </footer>
       <NavbarMobile darkMode={darkMode} toggleDarkMode={toggleDarkMode} />

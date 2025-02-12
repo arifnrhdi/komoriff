@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 const Navbar = ({ darkMode, toggleDarkMode }) => {
   return (
     <div>
-      <div className="flex justify-between items-center">
+      <div className="flex items-center justify-between">
         <a href="#" className="text-[43px] font-bold">
           Komoriff.
         </a>
         <div className="flex items-center gap-16">
-          <div className="hidden md:flex gap-10 text-[22px] font-semibold">
+          <div className="hidden gap-10 text-[22px] font-semibold md:flex">
             <Link to={"/"} target="_top" className="hover:opacity-70">
               Home
             </Link>
@@ -22,8 +22,18 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               Blog
             </Link>
           </div>
-          <div className="hover:bg-slate-400/60 dark:hover:bg-zinc-600 flex items-center rounded cursor-pointer" onClick={toggleDarkMode}>
-            {darkMode ? <FontAwesomeIcon icon={faSun} className="text-2xl p-3 px-[13px]" /> : <FontAwesomeIcon icon={faMoon} className="text-2xl p-3 px-4" />}
+          <div
+            className="flex cursor-pointer items-center rounded hover:bg-slate-400/60 dark:hover:bg-zinc-600"
+            onClick={toggleDarkMode}
+          >
+            {darkMode ? (
+              <FontAwesomeIcon
+                icon={faSun}
+                className="p-3 px-[13px] text-2xl"
+              />
+            ) : (
+              <FontAwesomeIcon icon={faMoon} className="p-3 px-4 text-2xl" />
+            )}
           </div>
         </div>
       </div>
