@@ -19,12 +19,14 @@ const Cards = (props) => {
         <img
           src={props.image}
           alt={props.alt}
-          className="h-[25rem] w-full rounded-xl object-cover"
+          className="h-[16rem] w-full rounded-xl object-cover md:h-[25rem]"
         />
       </div>
       <div className="p-4">
         <div className="text-2xl font-semibold">{props.judul}</div>
-        <div className="mt-3 text-xl opacity-80">{props.children}</div>
+        <div className="mt-3 text-base opacity-80 md:text-xl">
+          {props.children}
+        </div>
       </div>
     </a>
   );

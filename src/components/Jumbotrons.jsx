@@ -8,24 +8,24 @@ const Jumbotrons = () => {
       <div className="xl:col-start-1 xl:col-end-7">
         <img
           src={gwejh}
-          className="w-[18rem] rounded-3xl border-5 border-slate-50 xl:ms-52 xl:w-[26rem]"
+          className="w-[18rem] rounded-3xl border-5 border-slate-50 xl:float-end xl:me-16 xl:w-[22rem]"
         />
       </div>
       <div className="mt-7 font-semibold xl:col-span-5 xl:col-start-7 xl:mt-0">
-        <div className="hidden text-[34px] font-normal xl:block xl:text-start">
+        <div className="hidden text-[33px] font-normal xl:block xl:text-start">
           Hello, i'm
         </div>
-        <div className="mb-2 text-5xl font-extrabold tracking-wide xl:text-start xl:text-6xl">
+        <div className="mb-2 text-5xl font-extrabold tracking-wide xl:text-start xl:text-5xl">
           Arif Nurhadi
         </div>
-        <div className="mb-4 text-2xl font-light xl:text-start xl:text-3xl">
+        <div className="mb-4 text-xl font-light md:text-2xl xl:text-start">
           A student at Gunadarma University majoring in Informatika who likes
           everything related to technology development.
         </div>
         <div className="flex flex-row items-center justify-center gap-8 xl:justify-start xl:gap-12 xl:text-start">
           <Link
             to={"/about"}
-            className="rounded-lg bg-zinc-900 px-4 py-1 text-2xl text-gray-200 hover:opacity-85 lg:px-6 dark:bg-slate-200 dark:text-zinc-900"
+            className="rounded-lg bg-zinc-900 px-4 py-1 text-xl text-gray-200 hover:opacity-85 lg:px-6 dark:bg-slate-200 dark:text-zinc-900"
           >
             About me
           </Link>

@@ -38,7 +38,7 @@ const BlogList = ({ limit }) => {
   const limitedCards = limit ? cardsData.slice(0, limit) : cardsData;
 
   return (
-    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+    <div className="size-100% grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
       {limitedCards.map((card, index) => (
         <Cards
           key={index}

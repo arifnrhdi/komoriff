@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div>
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-7">
-        <div className="col-start-1 col-end-4 grid gap-4 text-[1.27rem] font-normal">
+        <div className="col-start-1 col-end-4 grid gap-4 text-lg font-normal md:text-[1.27rem]">
           <div>
             Halo, saya Arif, saya lahir di Tangerang pada 5 Oktober 2003. Saya
             adalah Mahasiswa Sarjana S1 jurusan Informatika pada Universitas
@@ -39,12 +39,12 @@ const AboutMe = () => {
         <div className="col-span-3 col-end-8 mb-16 flex justify-center lg:mb-0 lg:justify-end">
           <img
             src={gwejh}
-            className="h-fit w-[22rem] rounded-3xl border-5 border-slate-50"
+            className="h-fit w-[18rem] rounded-3xl border-5 border-slate-50 md:w-[22rem]"
           />
         </div>
       </div>
       <div className="mt-20">
-        <div className="mb-4 text-3xl font-bold">Experience</div>
+        <div className="mb-4 text-2xl font-bold md:text-3xl">Experience</div>
         <div className="flex flex-col gap-20 py-4">
           <div className="flex items-center gap-8 lg:items-start">
             <img
@@ -69,10 +69,12 @@ const AboutMe = () => {
                 </tbody>
               </table>
               <div className="block lg:hidden">
-                <div className="text-3xl font-bold tracking-wide">Lepkom</div>
+                <div className="text-2xl font-bold tracking-wide md:text-3xl">
+                  Lepkom
+                </div>
                 <div className="text-sm">October 2024 - Now</div>
               </div>
-              <div className="flex flex-wrap gap-4 text-base lg:text-xl">
+              <div className="flex flex-wrap gap-4 text-sm lg:text-xl">
                 <div className="rounded-md bg-zinc-900 p-1 px-2 font-semibold text-gray-200 dark:bg-slate-200 dark:text-zinc-900">
                   Assistant
                 </div>

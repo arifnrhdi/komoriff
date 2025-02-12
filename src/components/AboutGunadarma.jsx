@@ -6,7 +6,9 @@ const AboutGunadarma = () => {
   return (
     <div className="flex flex-col-reverse lg:grid lg:grid-cols-7">
       <div className="col-start-1 col-end-4 text-[1.27rem] font-semibold">
-        <div className="mb-2 text-3xl font-bold opacity-90">Sejarah</div>
+        <div className="mb-2 text-[26px] font-bold opacity-90 md:text-3xl">
+          Sejarah
+        </div>
         <div className="mb-8 font-normal">
           Universitas Gunadarma, yang lebih dikenal dengan sebutan Gunadarma,
           adalah salah satu perguruan tinggi swasta ternama di Indonesia.
@@ -14,7 +16,7 @@ const AboutGunadarma = () => {
           Komputer (PPIK), universitas ini berkembang pesat hingga resmi menjadi
           Universitas Gunadarma pada tahun 1996.
         </div>
-        <div className="my-2 text-3xl font-bold opacity-90">
+        <div className="my-2 text-[26px] font-bold opacity-90 md:text-3xl">
           Lokasi dan Fasilitas
         </div>
         <div className="mb-8 font-normal">
@@ -24,7 +26,7 @@ const AboutGunadarma = () => {
           komputer, perpustakaan digital, pusat penelitian, serta berbagai ruang
           kuliah yang nyaman.
         </div>
-        <div className="my-2 text-3xl font-bold opacity-90">
+        <div className="my-2 text-[26px] font-bold opacity-90 md:text-3xl">
           Keunggulan Universitas Gunadarma
         </div>
         <div className="mb-8 font-normal">
@@ -59,7 +61,7 @@ const AboutGunadarma = () => {
             </li>
           </ol>
         </div>
-        <div className="my-2 text-3xl font-bold opacity-90">
+        <div className="my-2 text-[26px] font-bold opacity-90 md:text-3xl">
           Informasi Lebih Lanjut
         </div>
         <div className="font-normal">

@@ -7,11 +7,11 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
   return (
     <div>
       <div className="flex items-center justify-between">
-        <a href="#" className="text-[43px] font-bold">
+        <a href="#" className="text-3xl font-bold md:text-[40px]">
           Komoriff.
         </a>
         <div className="flex items-center gap-16">
-          <div className="hidden gap-10 text-[22px] font-semibold md:flex">
+          <div className="hidden gap-10 text-[20px] font-semibold md:flex">
             <Link to={"/"} target="_top" className="hover:opacity-70">
               Home
             </Link>
