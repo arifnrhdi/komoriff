@@ -7,7 +7,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
   return (
     <div>
       <div className="flex items-center justify-between">
-        <a href="#" className="text-3xl font-bold md:text-[40px]">
+        <a href="/" className="text-3xl font-bold md:text-[40px]">
           Komoriff.
         </a>
         <div className="flex items-center gap-16">
