@@ -74,7 +74,7 @@ const AboutMe = () => {
                 </div>
                 <div className="text-sm">October 2024 - Now</div>
               </div>
-              <div className="flex flex-wrap gap-4 text-xs font-semibold text-gray-200 md:text-lg">
+              <div className="flex flex-wrap gap-4 text-xs font-semibold text-gray-50 md:text-lg">
                 <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
                   Assistant
                 </div>
