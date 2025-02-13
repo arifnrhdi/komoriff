@@ -10,7 +10,7 @@ const Cards = (props) => {
       className="group relative cursor-pointer overflow-hidden rounded-2xl border border-zinc-900/10 shadow-lg transition-transform hover:scale-[1.03] dark:border-zinc-800"
     >
       <div>
-        <div className="absolute flex h-[25rem] w-full items-center justify-center rounded-xl bg-black/40 text-2xl font-semibold text-gray-100 opacity-0 transition-all duration-200 group-hover:opacity-100">
+        <div className="absolute flex h-[16rem] w-full items-center justify-center rounded-xl bg-black/40 text-2xl font-semibold text-gray-100 opacity-0 transition-all duration-200 group-hover:opacity-100 md:h-[25rem]">
           <div className="flex items-center">
             <span>View blog</span>
             <FontAwesomeIcon icon={faArrowRight} className="ms-2 text-lg" />
