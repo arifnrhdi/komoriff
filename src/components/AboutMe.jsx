@@ -52,7 +52,7 @@ const AboutMe = () => {
               className="h-fit w-[8rem] rounded-3xl bg-gray-100 shadow-sm transition-colors"
             />
             <div className="flex w-2/3 flex-col gap-2">
-              <table className="hidden w-full text-left text-xl lg:table">
+              <table className="hidden w-full text-left text-lg lg:table">
                 <thead className="border-b-1">
                   <tr>
                     <th>Institusion Name</th>
@@ -74,23 +74,23 @@ const AboutMe = () => {
                 </div>
                 <div className="text-sm">October 2024 - Now</div>
               </div>
-              <div className="flex flex-wrap gap-4 text-sm lg:text-xl">
-                <div className="rounded-md bg-zinc-900 p-1 px-2 font-semibold text-gray-200 dark:bg-slate-200 dark:text-zinc-900">
+              <div className="flex flex-wrap gap-4 text-xs font-semibold text-gray-200 md:text-lg">
+                <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
                   Assistant
                 </div>
-                <div className="rounded-md bg-zinc-900 p-1 px-2 font-semibold text-gray-200 dark:bg-slate-200 dark:text-zinc-900">
+                <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
                   Problem Solving
                 </div>
-                <div className="rounded-md bg-zinc-900 p-1 px-2 font-semibold text-gray-200 dark:bg-slate-200 dark:text-zinc-900">
+                <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
                   Team Work
                 </div>
-                <div className="rounded-md bg-zinc-900 p-1 px-2 font-semibold text-gray-200 dark:bg-slate-200 dark:text-zinc-900">
+                <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
                   Instructor
                 </div>
-                <div className="rounded-md bg-zinc-900 p-1 px-2 font-semibold text-gray-200 dark:bg-slate-200 dark:text-zinc-900">
+                <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
                   Web
                 </div>
-                <div className="rounded-md bg-zinc-900 p-1 px-2 font-semibold text-gray-200 dark:bg-slate-200 dark:text-zinc-900">
+                <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
                   DBMS
                 </div>
               </div>
