@@ -1,5 +1,6 @@
 import React from "react";
 import gwejh from "../assets/img/tes.jpg";
+import { Link } from "react-router-dom";
 
 const Jumbotrons = () => {
   return (
@@ -22,12 +23,12 @@ const Jumbotrons = () => {
           everything related to technology development.
         </div>
         <div className="flex flex-row items-center justify-center gap-8 xl:justify-start xl:gap-12 xl:text-start">
-          <a
-            href="/about"
+          <Link
+            to="/about"
             className="rounded-lg bg-zinc-900 px-4 py-1 text-xl text-gray-200 hover:opacity-85 lg:px-6 dark:bg-slate-200 dark:text-zinc-900"
           >
             About me
-          </a>
+          </Link>
         </div>
       </div>
     </div>
