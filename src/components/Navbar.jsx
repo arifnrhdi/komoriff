@@ -12,15 +12,15 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         </Link>
         <div className="flex items-center gap-16">
           <div className="hidden gap-10 text-[20px] font-semibold md:flex">
-            <a href="/" className="hover:opacity-70">
+            <Link to="/" className="hover:opacity-70">
               Home
-            </a>
-            <a href="/about" className="hover:opacity-70">
+            </Link>
+            <Link to="/about" className="hover:opacity-70">
               About
-            </a>
-            <a href="/blog" className="hover:opacity-70">
+            </Link>
+            <Link to="/blog" className="hover:opacity-70">
               Blog
-            </a>
+            </Link>
           </div>
           <div
             className="flex cursor-pointer items-center rounded hover:bg-slate-400/60 dark:hover:bg-zinc-600"
