@@ -14,7 +14,7 @@ const Jumbotrons = () => {
         <div className="hidden text-[33px] font-normal xl:block xl:text-start">
           Hello, i'm
         </div>
-        <div className="mb-2 text-5xl font-extrabold tracking-wide xl:text-start xl:text-5xl">
+        <div className="mb-2 text-4xl font-extrabold tracking-wide xl:text-start md:text-5xl">
           Arif Nurhadi
         </div>
         <div className="mb-4 text-xl font-light md:text-2xl xl:text-start">

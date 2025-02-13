@@ -6,6 +6,8 @@ import {
   faDiscord,
   faWhatsapp,
   faLinkedin,
+  faGithub,
+  faSpotify,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -14,18 +16,19 @@ const Footer = () => {
       <div className="border-y-2 py-16 dark:border-y-gray-300">
         <div className="cols-1 grid gap-20 text-center lg:flex lg:justify-around">
           <div className="my-auto flex flex-col">
-            <p className="mb-2 text-3xl font-bold md:text-4xl">Arif.</p>
-            <p className="text-lg md:text-[22px]">
-              Perumahan Griya Karawaci Blok C1 no 24
+            <p className="mb-1 text-3xl font-bold tracking-wide md:text-4xl">
+              Arif.
             </p>
             <p className="text-lg md:text-[22px]">
               Tangerang, Banten, Indonesia
             </p>
           </div>
           <div className="my-auto">
-            <p className="mb-2 text-3xl font-bold md:text-4xl">Contact Me!</p>
+            <p className="mb-2 text-3xl font-bold md:text-4xl">
+              Let's Connect!
+            </p>
             <div className="flex items-center justify-center text-lg md:text-xl">
-              <p className="rounded-3xl bg-zinc-900 px-4 py-2 text-gray-200 lg:px-10 dark:bg-slate-200 dark:text-zinc-900">
+              <p className="rounded-xl bg-zinc-900 px-4 py-1 text-gray-50 lg:px-6 dark:bg-slate-200 dark:text-zinc-900">
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   className="me-2 text-lg md:text-[20px]"
@@ -33,7 +36,7 @@ const Footer = () => {
                 arfnrhdi17@gmail.com
               </p>
             </div>
-            <div className="mt-4 flex items-center justify-center gap-8 lg:justify-evenly lg:gap-0">
+            <div className="mt-4 flex flex-wrap items-center justify-center gap-6 lg:justify-evenly">
               <a
                 href="https://www.instagram.com/arfnrhdi__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 title="Instagram"
@@ -71,6 +74,26 @@ const Footer = () => {
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
+                  className="text-2xl hover:scale-110 hover:transition-transform md:text-[28px]"
+                />
+              </a>
+              <a
+                href="https://github.com/arifnrhdi"
+                title="GitHub"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="text-2xl hover:scale-110 hover:transition-transform md:text-[28px]"
+                />
+              </a>
+              <a
+                href="https://open.spotify.com/user/31rnjzdyyru4sghceam24jhdyizu?si=dd5cea48ac2f4fbd"
+                title="Spotify"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faSpotify}
                   className="text-2xl hover:scale-110 hover:transition-transform md:text-[28px]"
                 />
               </a>

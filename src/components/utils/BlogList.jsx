@@ -2,6 +2,7 @@ import React from "react";
 import adoptpets from "../../assets/img/adoptpets.jpg";
 import sakana from "../../assets/img/sakana.jpg";
 import gundar from "../../assets/img/gunadarma.jpeg";
+import figma from "../../assets/img/figma.jpg"
 import Cards from "./Cards";
 
 const BlogList = ({ limit }) => {
@@ -11,7 +12,7 @@ const BlogList = ({ limit }) => {
       target: "_blank",
       image: sakana,
       alt: "Surgeon Fish",
-      judul: "Sakana To Do List",
+      judul: "Sakana To-Do List",
       content:
         "A simple Website for task management using React and Express JS.",
     },
@@ -31,6 +32,15 @@ const BlogList = ({ limit }) => {
       judul: "About Universitas Gunadarma",
       content:
         "This article explains information about Gunadarma University, history, and several of the campus's advantages.",
+    },
+    {
+      href: "https://www.figma.com/design/VF8nZ6Vmf84I3LLZRR2DC9/Letterboxd?t=NAlSW2IXO8O9G3Je-1",
+      image: figma,
+      target: "_blank",
+      alt: "Letterboxd Figma",
+      judul: "Prototype Letterboxd",
+      content:
+        "A prototype project for an alternative look and features of the Letterboxd application for HCI practicums using Figma",
     },
   ];
 
