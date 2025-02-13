@@ -1,6 +1,5 @@
 import React from "react";
 import gundar from "../assets/img/gunadarma.jpeg";
-import { Link } from "react-router-dom";
 
 const AboutGunadarma = () => {
   return (
@@ -70,31 +69,31 @@ const AboutGunadarma = () => {
           </div>
           <ol className="grid list-inside list-disc gap-1 text-lg md:text-xl">
             <li>
-              <Link
+              <a
                 className="underline"
-                to="https://www.gunadarma.ac.id/"
+                href="https://www.gunadarma.ac.id/"
                 target="_blank"
               >
                 Official Website
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
+              <a
                 className="underline"
-                to="https://www.gunadarma.ac.id/"
+                href="https://www.gunadarma.ac.id/"
                 target="_blank"
               >
                 Studentsite
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
+              <a
                 className="underline"
-                to="https://www.gunadarma.ac.id/"
+                href="https://www.gunadarma.ac.id/"
                 target="_blank"
               >
                 BAAK
-              </Link>
+              </a>
             </li>
           </ol>
         </div>

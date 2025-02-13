@@ -26,7 +26,6 @@ const BlogList = ({ limit }) => {
     },
     {
       href: "/about-gunadarma",
-      target: "_top",
       image: gundar,
       alt: "Arif",
       judul: "About Universitas Gunadarma",

@@ -1,6 +1,5 @@
 import React from "react";
 import gwejh from "../assets/img/tes.jpg";
-import { Link } from "react-router-dom";
 
 const Jumbotrons = () => {
   return (
