@@ -61,7 +61,7 @@ const Footer = () => {
               >
                 <FontAwesomeIcon
                   icon={faWhatsapp}
-                  className="text-xl hover:scale-110 hover:transition-transform md:text-[28px]"
+                  className="text-2xl hover:scale-110 hover:transition-transform md:text-[28px]"
                 />
               </a>
               <a
@@ -71,7 +71,7 @@ const Footer = () => {
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  className="text-xl hover:scale-110 hover:transition-transform md:text-[28px]"
+                  className="text-2xl hover:scale-110 hover:transition-transform md:text-[28px]"
                 />
               </a>
             </div>
