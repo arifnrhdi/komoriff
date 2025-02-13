@@ -1,14 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ darkMode, toggleDarkMode }) => {
   return (
     <div>
       <div className="flex items-center justify-between">
-        <a href="/" className="text-3xl font-bold md:text-[40px]">
+        <Link to={"/"} className="text-3xl font-bold md:text-[40px]">
           Komoriff.
-        </a>
+        </Link>
         <div className="flex items-center gap-16">
           <div className="hidden gap-10 text-[20px] font-semibold md:flex">
             <a href="/" className="hover:opacity-70">
