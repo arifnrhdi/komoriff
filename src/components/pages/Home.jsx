@@ -35,15 +35,15 @@ const Home = () => {
             <p className="text-3xl font-bold md:text-4xl">Blog</p>
             <div>
               <a
-                className="flex items-center text-lg md:text-xl"
+                className="flex items-center text-lg md:text-xl hover:scale-100 group"
                 href="/blog"
                 target="_top"
               >
-                <span className="text-base hover:underline hover:underline-offset-2 md:text-[18px]">
+                <span className="text-base group-hover:underline group-hover:underline-offset-2 md:text-[18px]">
                   View all
                 </span>
                 <FontAwesomeIcon
-                  className="ms-2 text-sm md:text-[18px]"
+                  className="ms-2 text-sm md:text-[18px] group-hover:translate-x-[0.3rem] transition-transform duration-200"
                   icon={faArrowRight}
                 />
               </a>
