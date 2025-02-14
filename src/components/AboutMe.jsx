@@ -8,10 +8,10 @@ const AboutMe = () => {
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-7">
         <div className="col-start-1 col-end-4 grid gap-4 text-lg font-normal md:text-[1.27rem]">
           <div>
-            Halo, saya Arif, saya lahir di Tangerang pada 5 Oktober 2003. Saya
-            adalah Mahasiswa Sarjana S1 jurusan Informatika pada Universitas
-            Gunadarma, saya memulai kuliah saya pada September 2022 hingga
-            sekarang.
+            Halo, saya Arif Nurhadi biasa dipanggil Arif, saya lahir di
+            Tangerang pada 5 Oktober 2003. Saya adalah Mahasiswa Sarjana S1
+            jurusan Informatika pada Universitas Gunadarma, saya memulai kuliah
+            saya pada September 2022 hingga sekarang.
           </div>
           <div>
             Saya memiliki kemampuan front-end development dan back-end
@@ -44,7 +44,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="mt-20">
-        <div className="mb-4 text-2xl font-bold md:text-3xl">Experience</div>
+        <div className="text-2xl font-bold md:text-3xl">Experience</div>
         <div className="flex flex-col gap-20 py-4">
           <div className="flex items-center gap-8 lg:items-start">
             <img
@@ -74,7 +74,7 @@ const AboutMe = () => {
                 </div>
                 <div className="text-sm">October 2024 - Now</div>
               </div>
-              <div className="flex flex-wrap md:gap-4 gap-2 text-xs font-semibold text-gray-50 md:text-lg">
+              <div className="flex flex-wrap gap-2 text-xs font-semibold text-gray-50 md:gap-4 md:text-lg">
                 <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
                   Assistant
                 </div>

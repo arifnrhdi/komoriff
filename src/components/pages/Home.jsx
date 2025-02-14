@@ -39,7 +39,7 @@ const Home = () => {
                 href="/blog"
                 target="_top"
               >
-                <span className="hover:underline hover:underline-offset-2">
+                <span className="text-base hover:underline hover:underline-offset-2 md:text-[18px]">
                   View all
                 </span>
                 <FontAwesomeIcon
