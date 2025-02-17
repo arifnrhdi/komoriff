@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import BlogList from "../utils/BlogList";
+import ProjectsList from "../utils/ProjectsList";
+import ArticlesList from "../utils/ArticlesList";
 import NavbarMobile from "../NavbarMobile";
 
 const Blog = () => {
@@ -30,8 +31,17 @@ const Blog = () => {
             The following are some things that I have done
           </div>
         </div>
-        <div className="mx-2 xl:mx-12">
-          <BlogList />
+        <div className="xl:mx-12">
+          <div>
+            <p className="text-3xl font-bold md:text-4xl">Projects</p>
+            <hr className="mt-5 mb-8 border-1 dark:border-gray-300" />
+            <ProjectsList />
+          </div>
+          <div className="mt-12">
+            <p className="text-3xl font-bold md:text-4xl">Articles</p>
+            <hr className="mt-5 mb-8 border-1 dark:border-gray-300" />
+            <ArticlesList />
+          </div>
         </div>
       </div>
       <Footer />

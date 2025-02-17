@@ -29,7 +29,7 @@ const Gunadarma = () => {
             Universitas Gunadarma
           </div>
         </div>
-        <div className="mx-2 xl:mx-12">
+        <div className="xl:mx-12">
           <AboutGunadarma />
         </div>
       </div>

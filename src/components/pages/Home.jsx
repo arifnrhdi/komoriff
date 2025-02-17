@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../Navbar";
 import Jumbotrons from "../Jumbotrons";
-import BlogList from "../utils/BlogList";
+import ProjectsList from "../utils/ProjectsList";
 import Footer from "../Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -47,8 +47,8 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <hr className="mt-5 mb-10 border-1 dark:border-gray-300" />
-          <BlogList limit={3} />
+          <hr className="mt-5 mb-8 border-1 dark:border-gray-300" />
+          <ProjectsList limit={3} />
         </div>
       </div>
       <Footer />

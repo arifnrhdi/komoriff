@@ -27,7 +27,7 @@ const About = () => {
         <div className="mt-10 mb-12 xl:mx-12">
           <div className="mb-2 text-4xl font-bold lg:text-5xl">About Me</div>
         </div>
-        <div className="mx-2 xl:mx-12">
+        <div className="xl:mx-12">
           <AboutMe />
         </div>
       </div>

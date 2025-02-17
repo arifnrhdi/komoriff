@@ -1,11 +1,11 @@
 import React from "react";
 import adoptpets from "../../assets/img/adoptpets.jpg";
 import sakana from "../../assets/img/sakana.jpg";
-import gundar from "../../assets/img/gunadarma.jpeg";
-import figma from "../../assets/img/figma.jpg"
+import figma from "../../assets/img/figma.jpg";
+import logo from "../../assets/img/mylogo.jpg";
 import Cards from "./Cards";
 
-const BlogList = ({ limit }) => {
+const ProjectsList = ({ limit }) => {
   const cardsData = [
     {
       href: "https://github.com/arifnrhdi/sakana-todo-list",
@@ -26,14 +26,6 @@ const BlogList = ({ limit }) => {
         "A dynamic CRUD based animal adoption website using Express JS and React Vite",
     },
     {
-      href: "/about-gunadarma",
-      image: gundar,
-      alt: "Arif",
-      judul: "About Universitas Gunadarma",
-      content:
-        "This article explains information about Gunadarma University, history, and several of the campus's advantages.",
-    },
-    {
       href: "https://www.figma.com/design/VF8nZ6Vmf84I3LLZRR2DC9/Letterboxd?t=NAlSW2IXO8O9G3Je-1",
       image: figma,
       target: "_blank",
@@ -47,7 +39,7 @@ const BlogList = ({ limit }) => {
   const limitedCards = limit ? cardsData.slice(0, limit) : cardsData;
 
   return (
-    <div className="size-100% grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
       {limitedCards.map((card, index) => (
         <Cards
           key={index}
@@ -64,4 +56,4 @@ const BlogList = ({ limit }) => {
   );
 };
 
-export default BlogList;
+export default ProjectsList;

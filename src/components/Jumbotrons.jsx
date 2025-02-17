@@ -14,7 +14,7 @@ const Jumbotrons = () => {
         <div className="hidden text-[33px] font-normal xl:block xl:text-start">
           Hello, i'm
         </div>
-        <div className="mb-2 text-4xl font-extrabold tracking-wide xl:text-start md:text-5xl">
+        <div className="mb-2 text-4xl font-extrabold tracking-wide md:text-6xl xl:text-start">
           Arif Nurhadi
         </div>
         <div className="mb-4 text-xl font-light md:text-2xl xl:text-start">
@@ -23,8 +23,8 @@ const Jumbotrons = () => {
         </div>
         <div className="flex flex-row items-center justify-center gap-8 xl:justify-start xl:gap-12 xl:text-start">
           <a
-            href="/about" 
-            className="rounded-lg bg-zinc-900 px-4 py-1 text-xl text-gray-50 hover:opacity-85 lg:px-6 dark:bg-slate-200 dark:text-zinc-900"
+            href="/about"
+            className="rounded-lg bg-zinc-900 px-4 py-1 text-xl text-gray-50 hover:opacity-85 lg:px-6 xl:mb-3 dark:bg-slate-200 dark:text-zinc-900"
           >
             About me
           </a>

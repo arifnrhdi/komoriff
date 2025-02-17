@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/img/logo-lepkom.png";
-import gwejh from "../assets/img/tes.jpg";
+import gwejh from "../assets/img/Me crop.jpg";
 
 const AboutMe = () => {
   return (
@@ -39,12 +39,12 @@ const AboutMe = () => {
         <div className="col-span-3 col-end-8 mb-16 flex justify-center lg:mb-0 lg:justify-end">
           <img
             src={gwejh}
-            className="h-fit w-[18rem] rounded-3xl border-5 border-slate-50 md:w-[22rem]"
+            className="h-fit w-[18rem] rounded-xl md:w-[22rem]"
           />
         </div>
       </div>
       <div className="mt-20">
-        <div className="text-2xl font-bold md:text-3xl">Experience</div>
+        <div className="text-3xl font-bold md:text-4xl">Experience</div>
         <div className="flex flex-col gap-20 py-4">
           <div className="flex items-center gap-8 lg:items-start">
             <img
@@ -76,7 +76,7 @@ const AboutMe = () => {
               </div>
               <div className="flex flex-wrap gap-2 text-xs font-semibold text-gray-50 md:gap-4 md:text-lg">
                 <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
-                  Assistant
+                  Course Assistant
                 </div>
                 <div className="rounded-md bg-zinc-900 p-1 md:px-2 dark:bg-slate-200 dark:text-zinc-900">
                   Problem Solving

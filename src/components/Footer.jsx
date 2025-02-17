@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="border-y-2 py-16 dark:border-y-gray-300">
           <div className="cols-1 grid gap-20 text-center lg:flex lg:justify-around">
             <div className="my-auto flex flex-col">
-              <p className="mb-1 text-3xl font-bold tracking-wide md:text-4xl">
+              <p className="mb-1 text-3xl font-bold tracking-normal md:text-4xl">
                 Arif.
               </p>
               <p className="text-lg md:text-[22px]">
