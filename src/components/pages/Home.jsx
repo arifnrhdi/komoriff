@@ -25,9 +25,7 @@ const Home = () => {
     <div
       className={`${darkMode && "dark"} bg-slate-200 text-zinc-900 transition-colors duration-200 dark:bg-zinc-900 dark:text-gray-300`}
     >
-      <nav className="lg:px-auto sticky top-0 z-50 bg-slate-200/70 px-5 py-3 text-zinc-900 backdrop-blur-xl transition-colors duration-200 md:px-10 dark:bg-zinc-900/70 dark:text-gray-300">
-        <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      </nav>
+      <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <div className="lg:px-auto container mx-auto px-5 pt-24 lg:px-20">
         <Jumbotrons />
         <div className="mx-2 mt-26 xl:mx-12">
@@ -35,7 +33,7 @@ const Home = () => {
             <p className="text-3xl font-bold md:text-4xl">Blog</p>
             <div>
               <a
-                className="flex items-center text-lg md:text-xl hover:scale-100 group"
+                className="group flex items-center text-lg hover:scale-100 md:text-xl"
                 href="/blog"
                 target="_top"
               >
@@ -43,7 +41,7 @@ const Home = () => {
                   View all
                 </span>
                 <FontAwesomeIcon
-                  className="ms-2 text-sm md:text-[18px] group-hover:translate-x-[0.3rem] transition-transform duration-200"
+                  className="ms-2 text-sm transition-transform duration-200 group-hover:translate-x-[0.3rem] md:text-[18px]"
                   icon={faArrowRight}
                 />
               </a>
@@ -53,9 +51,7 @@ const Home = () => {
           <BlogList limit={3} />
         </div>
       </div>
-      <footer className="lg:px-auto container mx-auto px-5 pt-24 lg:px-20">
-        <Footer />
-      </footer>
+      <Footer />
       <NavbarMobile darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
     </div>
   );
