@@ -8,32 +8,28 @@ const AboutMe = () => {
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-7">
         <div className="col-start-1 col-end-4 grid gap-4 text-lg font-normal md:text-[1.27rem]">
           <div>
-            Halo, saya Arif Nurhadi biasa dipanggil Arif, saya lahir di
-            Tangerang pada 5 Oktober 2003. Saya adalah Mahasiswa Sarjana S1
-            jurusan Informatika pada Universitas Gunadarma, saya memulai kuliah
-            saya pada September 2022 hingga sekarang.
+            Hello, I'm Arif Nurhadi usually called Arif, I was born in Tangerang
+            on October 5, 2003. I'm an undergraduate student majoring in
+            Informatika at Gunadarma University, I started my studies in
+            September 2022 until now.
           </div>
           <div>
-            Saya memiliki kemampuan front-end development dan back-end
-            development serta desain grafis UI UX yang saya pelajari secara
-            otodidak selama kuliah.
+            I have front-end development and back-end development skill and UI
+            UX graphic design that I learned by myself during college.
           </div>
           <div>
-            Saat menjalani sekolah menengah akhir, saya menemukan ketertarikan
-            yang besar pada bidang IT. Minat ini terus tumbuh seiring
-            berjalannya waktu dan mendorong saya untuk mengetahui pengetahuan
-            seputar IT. Melalui kegiatan-kegiatan tersebut, saya tidak hanya
-            mengembangkan pengetahuan dan keterampilan, tetapi juga belajar
-            untuk bekerja sama dalam tim, menyelesaikan masalah, dan berpikir
-            kritis.
+            During high school, I found a great interest in IT. This interest
+            continued to grow over time and encouraged me to learn more about
+            IT. Through these activities, I'm not only developed my knowledge
+            and skills, but also learned how to work in team, solve problems,
+            and think critically.
           </div>
           <div>
-            Dalam kehidupan sehari-hari, saya adalah pribadi yang sedikit
-            pendiam. Saya senang mendengarkan musik, membaca komik, bermain
-            game, dan belajar seputar full-stack development. Ada beberapa
-            kekurangan yang saya miliki, salah satunya tidak suka belajar hal
-            yang sangat kompleks yang membuat saya sulit untuk berkembang dengan
-            cepat.
+            In my daily life, I'm a somewhat quiet person. Everyday I also like listening
+            music, reading comics, playing games, and learning about full-stack
+            development. There are some shortcomings I have, one of which is
+            that I don't like to learn very complex things, which makes it
+            difficult for me to develop quickly.
           </div>
         </div>
         <div className="col-span-3 col-end-8 mb-16 flex justify-center lg:mb-0 lg:justify-end">
@@ -55,7 +51,7 @@ const AboutMe = () => {
               <table className="hidden w-full text-left text-lg lg:table">
                 <thead className="border-b-1">
                   <tr>
-                    <th>Institusion Name</th>
+                    <th>Institution Name</th>
                     <th>Started</th>
                     <th>Finished</th>
                   </tr>

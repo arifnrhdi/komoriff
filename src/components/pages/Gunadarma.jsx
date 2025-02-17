@@ -26,7 +26,7 @@ const Gunadarma = () => {
       <div className="lg:px-auto container mx-auto px-5 lg:px-20">
         <div className="mt-10 mb-12 xl:mx-12">
           <div className="mb-2 text-4xl font-bold lg:text-5xl">
-            Universitas Gunadarma
+            Gunadarma University
           </div>
         </div>
         <div className="xl:mx-12">

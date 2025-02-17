@@ -6,66 +6,68 @@ const AboutGunadarma = () => {
     <div className="flex flex-col-reverse lg:grid lg:grid-cols-7">
       <div className="col-start-1 col-end-4 text-[1.27rem] font-semibold">
         <div className="mb-2 text-[26px] font-bold opacity-90 md:text-3xl">
-          Sejarah
+          History
         </div>
         <div className="mb-8 text-lg font-normal md:text-xl">
-          Universitas Gunadarma, yang lebih dikenal dengan sebutan Gunadarma,
-          adalah salah satu perguruan tinggi swasta ternama di Indonesia.
-          Didirikan pada tahun 1981 dengan nama awal Program Pendidikan Ilmu
-          Komputer (PPIK), universitas ini berkembang pesat hingga resmi menjadi
-          Universitas Gunadarma pada tahun 1996.
+          Gunadarma University, commonly known as Gunadarma, is one of the
+          leading private universities in Indonesia. Established in 1981 under
+          the initial name Program Pendidikan Ilmu Komputer (PPIK), the
+          university grew rapidly and officially became Gunadarma University in
+          1996.
         </div>
         <div className="my-2 text-[26px] font-bold opacity-90 md:text-3xl">
-          Lokasi dan Fasilitas
+          Location and Facilities
         </div>
         <div className="mb-8 text-lg font-normal md:text-xl">
-          Gunadarma memiliki beberapa kampus yang tersebar di berbagai lokasi di
-          Jabodetabek, termasuk Depok, Jakarta, Bekasi, dan Tangerang. Kampus
-          ini dilengkapi dengan berbagai fasilitas modern seperti laboratorium
-          komputer, perpustakaan digital, pusat penelitian, serta berbagai ruang
-          kuliah yang nyaman.
+          Gunadarma has several campuses spread across various locations in
+          Jabodetabek, including Depok, Jakarta, Bekasi, and Tangerang. These
+          campuses are equipped with various modern facilities such as computer
+          laboratories, digital libraries, research centers, and comfortable
+          lecture halls.
         </div>
         <div className="my-2 text-[26px] font-bold opacity-90 md:text-3xl">
-          Keunggulan Universitas Gunadarma
+          Advantages of Gunadarma University
         </div>
         <div className="mb-8 font-normal">
           <ol className="list-disc space-y-4 pl-5">
             <li>
               <span className="font-semibold">
-                Fokus pada Teknologi dan Inovasi
+                Focus on Technology and Innovation
               </span>
               <p className="text-lg md:text-xl">
-                Universitas ini dikenal sebagai salah satu kampus yang unggul
-                dalam bidang teknologi dan bisnis. Dengan kurikulum yang
-                berbasis teknologi, lulusan Gunadarma memiliki daya saing tinggi
-                di dunia kerja.
+                The university is known as one of the top institutions in the
+                fields of technology and business. With a technology-based
+                curriculum, Gunadarma graduates have high competitiveness in the
+                job market.
               </p>
             </li>
             <li>
-              <span className="font-semibold">Akreditasi dan Prestasi</span>
+              <span className="font-semibold">
+                Accreditation and Achievements
+              </span>
               <p className="text-lg md:text-xl">
-                Universitas Gunadarma telah mendapatkan akreditasi{" "}
-                <span className="font-bold">A</span> dari BAN-PT serta meraih
-                berbagai penghargaan nasional dan internasional dalam bidang
-                riset dan inovasi.
+                Gunadarma University has received{" "}
+                <span className="font-bold">Unggul</span> accreditation from
+                BAN-PT and has won various national and international awards in
+                research and innovation.
               </p>
             </li>
             <li>
-              <span className="font-semibold">Kerja Sama dengan Industri</span>
+              <span className="font-semibold">Cooperation with Industry</span>
               <p className="text-lg md:text-xl">
-                Gunadarma menjalin kerja sama dengan berbagai perusahaan besar,
-                baik dalam maupun luar negeri, untuk memberikan kesempatan
-                magang dan kerja bagi mahasiswanya.
+                Gunadarma cooperates with various large companies, both domestic
+                and international, to provide internship and job opportunities
+                for students.
               </p>
             </li>
           </ol>
         </div>
         <div className="my-2 text-[26px] font-bold opacity-90 md:text-3xl">
-          Informasi Lebih Lanjut
+          Further Information
         </div>
         <div className="font-normal">
           <div className="mb-1 text-lg md:text-xl">
-            Informasi lebih lanjut mengenai Universitas Gunadarma:
+            For more information about Gunadarma University:
           </div>
           <ol className="grid list-inside list-disc gap-1 text-lg md:text-xl">
             <li>
@@ -80,7 +82,7 @@ const AboutGunadarma = () => {
             <li>
               <a
                 className="underline"
-                href="https://www.gunadarma.ac.id/"
+                href="https://studentsite.gunadarma.ac.id/"
                 target="_blank"
               >
                 Studentsite
@@ -89,7 +91,7 @@ const AboutGunadarma = () => {
             <li>
               <a
                 className="underline"
-                href="https://www.gunadarma.ac.id/"
+                href="https://baak.gunadarma.ac.id/"
                 target="_blank"
               >
                 BAAK
@@ -99,7 +101,11 @@ const AboutGunadarma = () => {
         </div>
       </div>
       <div className="col-span-3 col-end-8 mb-16 flex justify-center lg:mb-0 lg:justify-self-end">
-        <img src={gundar} className="h-fit w-[36rem] rounded-xl" />
+        <img
+          src={gundar}
+          className="h-fit w-[36rem] rounded-xl"
+          alt="Gunadarma University"
+        />
       </div>
     </div>
   );

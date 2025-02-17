@@ -8,7 +8,7 @@ const BlogList = ({ limit }) => {
       href: "/about-gunadarma",
       image: gundar,
       alt: "Arif",
-      judul: "About Universitas Gunadarma",
+      judul: "About Gunadarma University",
       content:
         "This article explains information about Gunadarma University, history, and several of the campus's advantages.",
     },
