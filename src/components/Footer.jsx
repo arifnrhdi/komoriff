@@ -59,16 +59,6 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://wa.me/6282114597915"
-                  title="Whatapp"
-                  target="_blank"
-                >
-                  <FontAwesomeIcon
-                    icon={faWhatsapp}
-                    className="text-2xl hover:scale-110 hover:transition-transform md:text-[28px]"
-                  />
-                </a>
-                <a
                   href="https://www.linkedin.com/in/arif-nurhadii/"
                   title="LinkedIn"
                   target="_blank"

@@ -22,7 +22,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 
   return (
     <nav
-      className={`lg:px-auto sticky top-0 z-50 px-8 py-4 text-zinc-900 backdrop-blur-2xl transition-colors duration-200 md:px-20 dark:text-gray-300 ${isScrolled ? "bg-slate-200/70 dark:bg-zinc-800/70" : "bg-slate-200/70 dark:bg-zinc-900/70"}`}
+      className={`lg:px-auto sticky top-0 z-50 px-8 md:py-4 py-3 text-zinc-900 backdrop-blur-2xl transition-colors duration-200 md:px-20 dark:text-gray-300 ${isScrolled ? "bg-slate-200/70 dark:bg-zinc-800/70" : "bg-slate-200/70 dark:bg-zinc-900/70"}`}
     >
       <div className="flex items-center justify-between">
         <a

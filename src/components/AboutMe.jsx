@@ -44,7 +44,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="mt-20">
-        <div className="text-3xl font-bold md:text-4xl">Experience</div>
+        <div className="text-[26px] font-bold md:text-4xl">Experience</div>
         <div className="flex flex-col gap-20 py-4">
           <div className="flex items-center gap-8 lg:items-start">
             <img
