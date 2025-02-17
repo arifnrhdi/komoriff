@@ -28,7 +28,7 @@ const Home = () => {
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <div className="lg:px-auto container mx-auto px-5 pt-24 lg:px-20">
         <Jumbotrons />
-        <div className="mx-2 mt-26 xl:mx-12">
+        <div className="mt-26 xl:mx-12">
           <div className="flex items-center justify-between">
             <p className="text-3xl font-bold md:text-4xl">Blog</p>
             <div>
