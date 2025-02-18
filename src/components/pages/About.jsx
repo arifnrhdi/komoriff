@@ -1,22 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import AboutMe from "../AboutMe";
 import NavbarMobile from "../NavbarMobile";
+import DarkMode from "../utils/DarkMode";
 
 const About = () => {
-  const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("darkMode") === "true";
-  });
+  const { darkMode, toggleDarkMode } = DarkMode();
 
   useEffect(() => {
-    localStorage.setItem("darkMode", darkMode);
     document.title = "Arif - About";
-  }, [darkMode]);
-
-  const toggleDarkMode = () => {
-    setDarkMode((prevMode) => !prevMode);
-  };
+  }, []);
 
   return (
     <div

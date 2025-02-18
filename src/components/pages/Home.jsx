@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Navbar";
 import Jumbotrons from "../Jumbotrons";
 import ProjectsList from "../utils/ProjectsList";
@@ -6,20 +6,14 @@ import Footer from "../Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import NavbarMobile from "../NavbarMobile";
+import DarkMode from "../utils/DarkMode";
 
 const Home = () => {
-  const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("darkMode") === "true";
-  });
+  const { darkMode, toggleDarkMode } = DarkMode();
 
   useEffect(() => {
-    localStorage.setItem("darkMode", darkMode);
     document.title = "Arif - Home";
-  }, [darkMode]);
-
-  const toggleDarkMode = () => {
-    setDarkMode((prevMode) => !prevMode);
-  };
+  }, []);
 
   return (
     <div

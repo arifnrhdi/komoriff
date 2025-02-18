@@ -4,20 +4,14 @@ import Footer from "../Footer";
 import ProjectsList from "../utils/ProjectsList";
 import ArticlesList from "../utils/ArticlesList";
 import NavbarMobile from "../NavbarMobile";
+import DarkMode from "../utils/DarkMode";
 
 const Blog = () => {
-  const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("darkMode") === "true";
-  });
+  const { darkMode, toggleDarkMode } = DarkMode();
 
   useEffect(() => {
-    localStorage.setItem("darkMode", darkMode);
     document.title = "Arif - Blog";
-  }, [darkMode]);
-
-  const toggleDarkMode = () => {
-    setDarkMode((prevMode) => !prevMode);
-  };
+  }, []);
 
   return (
     <div
@@ -27,7 +21,7 @@ const Blog = () => {
       <div className="lg:px-auto container mx-auto px-5 lg:px-20">
         <div className="mt-10 mb-12 xl:mx-12">
           <div className="mb-2 text-4xl font-bold lg:text-5xl">Blog</div>
-          <div className="text-lg font-medium opacity-70 lg:text-xl">
+          <div className="text-base font-medium opacity-70 md:text-xl">
             The following are some things that I have done
           </div>
         </div>
