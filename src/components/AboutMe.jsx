@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="col-start-1 col-end-4 grid gap-4 text-lg font-normal md:text-[1.27rem]">
           <div>
             Hello, I'm Arif Nurhadi usually called Arif, I was born in Tangerang
-            on October 5, 2003. I'm an undergraduate student majoring in
+            on October 5, 2003. I'm undergraduate student majoring in
             Informatika at Gunadarma University, I started my studies in
             September 2022 until now.
           </div>
@@ -25,8 +25,8 @@ const AboutMe = () => {
             and think critically.
           </div>
           <div>
-            In my daily life, I'm a somewhat quiet person. Everyday I also like listening
-            music, reading comics, playing games, and learning about full-stack
+            My daily life, I'm a somewhat quiet person. Everyday I also like listening
+            musics, reading comics, playing games, and learning about full-stack
             development. There are some shortcomings I have, one of which is
             that I don't like to learn very complex things, which makes it
             difficult for me to develop quickly.
