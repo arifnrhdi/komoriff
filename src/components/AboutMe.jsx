@@ -18,18 +18,18 @@ const AboutMe = () => {
             UX graphic design that I learned by myself during college.
           </div>
           <div>
-            During high school, I found a great interest in IT. This interest
-            continued to grow over time and encouraged me to learn more about
-            IT. Through these activities, I'm not only developed my knowledge
-            and skills, but also learned how to work in team, solve problems,
-            and think critically.
+            During high school, I found a great interest in Computer Science.
+            This interest continued to grow over time and encouraged me to learn
+            more about Computer Science. Through these activities, I'm not only
+            developed my knowledge and skills, but also learned how to work in
+            team, solve problems, and think critically.
           </div>
           <div>
-            My daily life, I'm a somewhat quiet person. Everyday I also like listening
-            musics, reading comics, playing games, and learning about full-stack
-            development. There are some shortcomings I have, one of which is
-            that I don't like to learn very complex things, which makes it
-            difficult for me to develop quickly.
+            My daily life, I'm a somewhat quiet person. Everyday I also like
+            listening musics, reading comics, playing games, and learning about
+            full-stack development. There are some shortcomings I have, one of
+            which is that I don't like to learn very complex things, which makes
+            it difficult for me to develop quickly.
           </div>
         </div>
         <div className="col-span-3 col-end-8 mb-16 flex justify-center lg:mb-0 lg:justify-end">
