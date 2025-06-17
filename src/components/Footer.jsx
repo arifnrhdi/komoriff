@@ -39,7 +39,7 @@ const Footer = () => {
               </div>
               <div className="mt-4 flex flex-wrap items-center justify-center gap-6 lg:justify-evenly">
                 <a
-                  href="https://www.instagram.com/arfnrhdi__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  href="https://www.instagram.com/hikorii__/"
                   title="Instagram"
                   target="_blank"
                 >
