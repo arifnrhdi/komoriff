@@ -8,28 +8,29 @@ const AboutMe = () => {
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-7">
         <div className="col-start-1 col-end-4 grid gap-4 text-lg font-normal md:text-[1.27rem]">
           <div>
-            Hello, I'm Arif Nurhadi usually called Arif, I was born in Tangerang
-            on October 5, 2003. I'm undergraduate student majoring in
-            Informatika at Gunadarma University, I started my studies in
-            September 2022 until now.
+            Hello, I'm Arif Nurhadi usually called Arif. I'm undergraduate
+            student majoring in Informatika at Gunadarma University, starting
+            from September 2022.
           </div>
           <div>
-            I have front-end development and back-end development skill and UI
-            UX graphic design that I learned by myself during college.
+            I have a interest in both front-end and back-end development, and I
+            also enjoy exploring UI/UX design. These skills I developed through
+            self-learning alongside my academic.
           </div>
           <div>
-            During high school, I found a great interest in Computer Science.
-            This interest continued to grow over time and encouraged me to learn
-            more about Computer Science. Through these activities, I'm not only
-            developed my knowledge and skills, but also learned how to work in
-            team, solve problems, and think critically.
+            My interest in Computer Science began during high school and has
+            grown steadily over time. This passion motivated me to explore
+            various areas in technology, deepen my knowledge and improve my
+            technical abilities. Along the way, I also learned how to
+            collaborate in team, solve problems, and think critically.
           </div>
           <div>
-            My daily life, I'm a somewhat quiet person. Everyday I also like
-            listening musics, reading comics, playing games, and learning about
-            full-stack development. There are some shortcomings I have, one of
-            which is that I don't like to learn very complex things, which makes
-            it difficult for me to develop quickly.
+            As a person, I tend to be quiet and introvert. In my daily life,
+            I enjoy listening to musics, reading comics, playing games, and
+            continuously learning about full-stack development. I'm aware that I
+            sometimes struggle with learning highly complex topics quickly, but
+            I see this as an opportunity to grow at my own pace while focusing
+            on consistent progress.
           </div>
         </div>
         <div className="col-span-3 col-end-8 mb-16 flex justify-center lg:mb-0 lg:justify-end">
